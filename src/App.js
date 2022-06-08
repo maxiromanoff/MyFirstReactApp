@@ -1,23 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
+    <div className="bgImage">
+      <div className='App-display-topleft'>Logo</div>
+      <div className="App-display-middle">
+        <h1 className='App-title'>COMING SOON</h1>
+        <hr className="Border-line" />
+        <p className="App-description">35 days left</p>
+      </div>
+      <div className='App-display-bottomleft App-link'>
+        Created by
+        <a className='App-link' href="https://titach24.blogspot.com/" target="_blank" rel="noopener noreferrer" >
+          Maxiromanoff
         </a>
-      </header>
+      </div>
     </div>
   );
 }
